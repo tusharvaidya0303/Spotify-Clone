@@ -10,16 +10,18 @@ body{
     height: 100vh;
 }
 .sidebar{
-    background-color: red;
+    background-color: #121212;
     width: 340px;
+    border-radius: 1rem;      /* 1rem = 16px */
 }
 .main-content{
-    background-color: blue;
+    background-color: #121212;
     flex: 1;
-
+    border-radius: 1rem;      /* 1rem = 16px */
+    overflow: auto;
 }
 .music-player{
-    background-color: green;
+    background-color: black;
     position: fixed;
     bottom: 0px;
     width: 100%;
