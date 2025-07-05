@@ -177,3 +177,18 @@ a{
     border-top: 1px solid white;
     opacity: 0.4;
 }
+.music-player{
+    display: flex;
+}
+.album{
+    width: 25%;
+}
+.player{
+    width: 50%;
+}
+.player-control-icon{
+    height: 1rem;
+}
+.controls{
+    width: 25%;
+}
