@@ -184,6 +184,40 @@ a{
 }
 .album{
     width: 25%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.album-image{
+    height: 3rem;
+    padding: 0.5rem;
+}
+.album-info{
+    display: flex;
+    flex-direction: column;
+    margin-left: 0.8rem;
+}
+.album-title{
+    margin: 1rem 0 0 0;
+    font-weight: 600;
+}
+.album-singer{
+    margin: 0.3rem 0 1rem 0;
+    font-size: 0.8rem;
+    opacity: 0.8;
+}
+.album-icon{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.album-icon1{
+    height: 1.5rem;
+}
+.album-icon2{
+    height: 2.5rem;
+    margin-left: 0.8rem;
+    margin-top: 0.3rem;
 }
 
 .player{
