@@ -234,6 +234,7 @@ a {
 .player-control-icon {
   height: 1rem;
   margin-right: 1.75rem;
+  margin-left: 2.5rem;
   opacity: 0.7;
 }
 .player-control-icon:hover {
@@ -266,4 +267,51 @@ a {
 
 .controls {
   width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+.control-icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.control-icons1{
+    height: 2.5rem;
+    margin-right: 5px;
+}
+.control-icons2{
+    margin-right: 5px;
+    height: 2.5rem;
+}
+.control-icons3{
+    height: 1.5rem;
+    margin-right: 10px;
+}
+.control-icons4{
+    height: 1rem;
+    margin-right: 5px;
+}
+.control-icons5{
+    height: 2.8rem;
+
+}
+.control-volume {
+    width: 70%;
+    appearance: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  .control-volume::-webkit-slider-runnable-track {
+    background-color: #ddd;
+    border-radius: 100px;
+    height: 0.2rem;
+  }
+  .control-volume::-webkit-slider-thumb {
+    appearance: none;
+    height: 1rem;
+    width: 1rem;
+    background-color: #1bd760;
+    border-radius: 50%;
+    margin-top: -7px;
+  }
